@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<office><!-- NOTE: WE KNOW THIS RECORD HAS PROBLEMS. PLEASE IGNORE FOR NOW. -->
+    <id>director-of-the-bureau-of-financial-management-and-policy</id>
+    <old-ids>
+        <old-id>director-bureau-financial-mgmt-policy</old-id>
+    </old-ids>
+    <name>Director of the Bureau of Financial Management and Policy</name>
+    <category>assistant-secretary-or-equiv</category>
+    <rank/>
+    <valid-from>1979</valid-from>
+    <valid-until>2005</valid-until>
+    <predecessors/>
+    <successors/>
+    <note>
+        <div>
+            <p/>
+        </div>
+    </note>
+    <officers><!-- TO BE ADDED WHEN DATA IS AVAILABLE --></officers>
+    <other-appointees/>
+    <created-by>wicentowskijc</created-by>
+    <created-date>2014-09-18</created-date>
+    <last-modified-by>wicentowskijc</last-modified-by>
+    <last-modified-date>2014-09-18</last-modified-date>
+</office>
