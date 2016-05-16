@@ -5,12 +5,14 @@
     <office-symbol/>
     <child-of/>
     <valid-from>1789-07-27</valid-from>
-    <valid-until>1789-09-05</valid-until>
-    <predecessors/>
+    <valid-until>1789-09-14</valid-until>
+    <predecessors>
+        <predecessor>department-of-foreign-affairs-under-the-continental-congress-1789</predecessor>
+    </predecessors>
     <successors>
         <successor>department-of-state</successor>
     </successors>
-    <note>The Act of Congress of Sep 5, 1789, that changed the name of the Department of
+    <note>The Act of Congress of Sep 15, 1789, that changed the name of the Department of
         Foreign Affairs assigned various domestic duties to the Department of State</note>
     <created-by>wicentowskijc</created-by>
     <created-date>2014-09-18</created-date>
