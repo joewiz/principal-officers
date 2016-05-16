@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<unit>
+    <id>department-of-foreign-affairs</id>
+    <name>Department of Foreign Affairs</name>
+    <office-symbol/>
+    <child-of/>
+    <valid-from>1789-07-27</valid-from>
+    <valid-until>1789-09-05</valid-until>
+    <predecessors/>
+    <successors/>
+    <note/>
+    <created-by>jacksonse</created-by>
+    <created-date>2016-01-19</created-date>
+    <last-modified-by>jacksonse</last-modified-by>
+    <last-modified-date>2016-01-25</last-modified-date>
+</unit>

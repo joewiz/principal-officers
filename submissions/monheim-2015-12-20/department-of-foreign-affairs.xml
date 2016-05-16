@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<unit>
+    <id>department-of-foreign-affairs</id>
+    <name>Department of Foreign Affairs</name>
+    <office-symbol/>
+    <child-of/>
+    <valid-from>1789-07-27</valid-from>
+    <valid-until>1789-09-05</valid-until>
+    <predecessors/>
+    <successors>
+        <successor>department-of-state</successor>
+    </successors>
+    <note>The Act of Congress of Sep 5, 1789, that changed the name of the Department of
+        Foreign Affairs assigned various domestic duties to the Department of State</note>
+    <created-by>wicentowskijc</created-by>
+    <created-date>2014-09-18</created-date>
+    <last-modified-by>wicentowskijc</last-modified-by>
+    <last-modified-date>2014-09-18</last-modified-date>
+</unit>
