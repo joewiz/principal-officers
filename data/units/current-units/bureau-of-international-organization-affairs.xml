@@ -4,13 +4,15 @@
     <name>Bureau of International Organization Affairs</name>
     <office-symbol>IO</office-symbol>
     <child-of/>
-    <valid-from/>
+    <valid-from>1954-08-25</valid-from>
     <valid-until/>
-    <predecessors/>
+    <predecessors>
+        <predecessor>bureau-of-united-nations-affairs-1954</predecessor>
+    </predecessors>
     <successors/>
     <note/>
     <created-by>wicentowskijc</created-by>
     <created-date>2015-11-17</created-date>
-    <last-modified-by>wicentowskijc</last-modified-by>
-    <last-modified-date>2015-11-17</last-modified-date>
+    <last-modified-by>jacksonse</last-modified-by>
+    <last-modified-date>2016-04-24</last-modified-date>
 </unit>
