@@ -46,6 +46,7 @@ declare function local:get-predecessors($office-ids as xs:string+) {
         return
             <div id="{$office/id}">
                 <h2>{$office/name/string()}</h2>
+                <p><code>{$office/id/string()}</code></p>
                 <div>
                     <h3>History of this Office</h3>
                     <ol>
@@ -63,48 +64,66 @@ declare function local:get-predecessors($office-ids as xs:string+) {
                                                 else 
                                                     '[' || $predecessor/valid-from/string() || '?]'
                                             ) 
-                                            || '–' || 
-                                            (
-                                                if ($predecessor/valid-until castable as xs:date) then 
-                                                    format-date($predecessor/valid-until cast as xs:date, '[MNn] [D], [Y]') 
-                                                else 
-                                                    '[' || $predecessor/valid-until/string() || '?]'
-                                            )
+                                            || '–' 
+                                            || 
+                                                (
+                                                    if ($predecessor/valid-until castable as xs:date) then 
+                                                        format-date($predecessor/valid-until cast as xs:date, '[MNn] [D], [Y]') 
+                                                    else 
+                                                        '[' || $predecessor/valid-until/string() || '?]'
+                                                )
                                         })
                                         <ul>
-                                            <li>{(normalize-space($predecessor/note), <em>[No description]</em>)[1]}</li>
+                                            <li><code>{$predecessor/id/string()}</code></li>
+                                            <li>{(normalize-space($predecessor/note), <em>[No description.]</em>)[. ne ''][1]}</li>
                                         </ul>
                                     </li>
                             else ()
                         }
-                        <li><strong>{$office/name/string()}</strong> (since {if ($office/valid-from castable as xs:date) then format-date($office/valid-from cast as xs:date, '[MNn] [D], [Y]') else $office/valid-from/string()})
+                        <li>
+                            <strong>{$office/name/string()}</strong> 
+                            (since {
+                                if ($office/valid-from castable as xs:date) then 
+                                    format-date($office/valid-from cast as xs:date, '[MNn] [D], [Y]') 
+                                else 
+                                    $office/valid-from/string()
+                            })
                             <ul>
-                                <li>{(normalize-space($office/note), <em>[No description]</em>)[1]}</li>
+                                <li><code>{$office/id/string()}</code></li>
+                                <li>{(normalize-space($office/note), <em>[No description.]</em>)[. ne ''][1]}</li>
                             </ul>
                         </li>
                     </ol>
                 </div>
                 <div>
                     <h3>Officers</h3>
-                    <ol>{
-                        for $officer in $office/officers/officer
-                        return
-                            <li>{
-                                $officer/person-id/string(),
-                                if ($officer/contemporary-office-id ne $office/id) then 
-                                    " (Appointed as " 
-                                    || $officer/contemporary-office-id 
-                                    || (
-                                        if ($officer/mid-service-office-id-change) then 
-                                            ("; TITLE CHANGED to " || $officer/mid-service-office-id-change) 
+                    {
+                        if (exists($office/officers/officer)) then
+                            <ol>{
+                                for $officer in $office/officers/officer
+                                return
+                                    <li>{
+                                        $officer/person-id/string(),
+                                        if ($officer/contemporary-office-id ne $office/id) then 
+                                            " (Appointed as " 
+                                            || $officer/contemporary-office-id 
+                                            || (
+                                                if ($officer/mid-service-office-id-change) then 
+                                                    (
+                                                        "; TITLE CHANGED to " 
+                                                        || $officer/mid-service-office-id-change
+                                                    ) 
+                                                else 
+                                                    ()
+                                                ) 
+                                            || ")" 
                                         else 
                                             ()
-                                        ) 
-                                    || ")" 
-                                else 
-                                    ()
-                            }</li>
-                    }</ol>
+                                    }</li>
+                            }</ol>
+                        else
+                            <p><em>[No officers.]</em></p>
+                    }
                 </div>
                 <div>
                     <h3>Other Appointees</h3>
@@ -116,7 +135,7 @@ declare function local:get-predecessors($office-ids as xs:string+) {
                                     <li>{$officer/person-id/string()}</li>
                             }</ol>
                         else
-                            <p><em>[None.]</em></p>
+                            <p><em>[No officers.]</em></p>
                     }
                 </div>
                 <hr/>
