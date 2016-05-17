@@ -15,64 +15,111 @@ declare function local:get-office($office-id as xs:string) {
     collection($local:principal-offices-col)/office[id = $office-id]
 };
 
-declare function local:get-predecessors($office-id as xs:string) {
-    let $office := local:get-office($office-id)
-    let $predecessor-id := $office/predecessors/predecessor
+declare function local:get-predecessors($office-ids as xs:string+) {
+    let $offices := $office-ids ! local:get-office(.)
+    let $predecessor-ids := $offices/predecessors/predecessor
     return
-        if ($predecessor-id) then
+        if (exists($predecessor-ids)) then
             (
-                $predecessor-id/string(),
-                local:get-predecessors($predecessor-id)
+                $predecessor-ids ! 
+                (
+                    ./string(),
+                    local:get-predecessors(.)
+                )
             )
         else
             ()
 };
 
-<div>{
-    for $office in collection($local:current-offices-col)/office
-    let $predecessors := local:get-predecessors($office/id)
-    return
-        <div>
-            <h2>{$office/name/string()}</h2>
-            <div>
-                <h3>History of this Office</h3>
-                <ol>
+<div>
+    <p>{count(collection($local:current-offices-col)/office)} current offices.</p>
+    <ol>{
+        for $office in collection($local:current-offices-col)/office
+        order by $office/id
+        return
+            <li><a href="#{$office/id}">{$office/name/string()}</a></li>
+    }</ol>
+    {
+        for $office in collection($local:current-offices-col)/office
+        let $predecessors := local:get-predecessors($office/id)
+        order by $office/id
+        return
+            <div id="{$office/id}">
+                <h2>{$office/name/string()}</h2>
+                <div>
+                    <h3>History of this Office</h3>
+                    <ol>
+                        {
+                            if (exists($predecessors)) then
+                                for $predecessor-id in reverse($predecessors)
+                                let $predecessor := local:get-office($predecessor-id)
+                                return
+                                    <li>
+                                        <strong>{$predecessor/name/string()}</strong> 
+                                        ({
+                                            (
+                                                if ($predecessor/valid-from castable as xs:date) then 
+                                                    format-date($predecessor/valid-from cast as xs:date, '[MNn] [D], [Y]') 
+                                                else 
+                                                    '[' || $predecessor/valid-from/string() || '?]'
+                                            ) 
+                                            || '–' || 
+                                            (
+                                                if ($predecessor/valid-until castable as xs:date) then 
+                                                    format-date($predecessor/valid-until cast as xs:date, '[MNn] [D], [Y]') 
+                                                else 
+                                                    '[' || $predecessor/valid-until/string() || '?]'
+                                            )
+                                        })
+                                        <ul>
+                                            <li>{(normalize-space($predecessor/note), <em>[No description]</em>)[1]}</li>
+                                        </ul>
+                                    </li>
+                            else ()
+                        }
+                        <li><strong>{$office/name/string()}</strong> (since {if ($office/valid-from castable as xs:date) then format-date($office/valid-from cast as xs:date, '[MNn] [D], [Y]') else $office/valid-from/string()})
+                            <ul>
+                                <li>{(normalize-space($office/note), <em>[No description]</em>)[1]}</li>
+                            </ul>
+                        </li>
+                    </ol>
+                </div>
+                <div>
+                    <h3>Officers</h3>
+                    <ol>{
+                        for $officer in $office/officers/officer
+                        return
+                            <li>{
+                                $officer/person-id/string(),
+                                if ($officer/contemporary-office-id ne $office/id) then 
+                                    " (Appointed as " 
+                                    || $officer/contemporary-office-id 
+                                    || (
+                                        if ($officer/mid-service-office-id-change) then 
+                                            ("; TITLE CHANGED to " || $officer/mid-service-office-id-change) 
+                                        else 
+                                            ()
+                                        ) 
+                                    || ")" 
+                                else 
+                                    ()
+                            }</li>
+                    }</ol>
+                </div>
+                <div>
+                    <h3>Other Appointees</h3>
                     {
-                        if (exists($predecessors)) then
-                            for $predecessor-id in reverse($predecessors)
-                            let $predecessor := local:get-office($predecessor-id)
-                            return
-                                <li>
-                                    <strong>{$predecessor/name/string()}</strong> 
-                                    ({format-date($predecessor/valid-from, '[MNn] [D], [Y]') || '–' || format-date($predecessor/valid-until, '[MNn] [D], [Y]')})
-                                    <ul>
-                                        <li>{$predecessor/note/string()}</li>
-                                    </ul>
-                                </li>
-                        else ()
+                        if (exists($office/other-appointees/officer)) then
+                            <ol>{
+                                for $officer in $office/other-appointees/officer
+                                return
+                                    <li>{$officer/person-id/string()}</li>
+                            }</ol>
+                        else
+                            <p><em>[None.]</em></p>
                     }
-                    <li><strong>{$office/name/string()}</strong> (since {format-date($office/valid-from, '[MNn] [D], [Y]')})
-                        <ul>
-                            <li>{$office/note/string()}</li>
-                        </ul>
-                    </li>
-                </ol>
+                </div>
+                <hr/>
             </div>
-            <div>
-                <h3>Officers</h3>
-                <ol>{
-                    for $officer in $office/officers/officer
-                    return
-                        <li>{$officer/person-id/string()} {if ($officer/contemporary-office-id ne $office/id) then " (Appointed as " || $officer/contemporary-office-id || (if ($officer/mid-service-office-id-change) then ("; TITLE CHANGED to " || $officer/mid-service-office-id-change) else ()) || ")" else ()}</li>
-                }</ol>
-            </div>
-            <div>
-                <h3>Other Appointees</h3>
-                <ol>{
-                    for $officer in $office/other-appointees/officer
-                    return
-                        <li>{$officer/person-id/string()}</li>
-                }</ol>
-            </div>
-        </div>
-}</div>
+    }
+</div>
