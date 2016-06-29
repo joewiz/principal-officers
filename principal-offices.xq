@@ -62,7 +62,7 @@ declare function local:get-predecessors($office-ids as xs:string+) {
                                                 if ($predecessor/valid-from castable as xs:date) then 
                                                     format-date($predecessor/valid-from cast as xs:date, '[MNn] [D], [Y]') 
                                                 else 
-                                                    '[' || $predecessor/valid-from/string() || '?]'
+                                                    '[' || string-join($predecessor/valid-from) || '?]'
                                             ) 
                                             || '–' 
                                             || 
@@ -70,12 +70,12 @@ declare function local:get-predecessors($office-ids as xs:string+) {
                                                     if ($predecessor/valid-until castable as xs:date) then 
                                                         format-date($predecessor/valid-until cast as xs:date, '[MNn] [D], [Y]') 
                                                     else 
-                                                        '[' || $predecessor/valid-until/string() || '?]'
+                                                        '[' || string-join($predecessor/valid-until) || '?]'
                                                 )
                                         })
                                         <ul>
                                             <li><code>{$predecessor/id/string()}</code></li>
-                                            <li>{(normalize-space($predecessor/note), <em>[No description.]</em>)[. ne ''][1]}</li>
+                                            <li>{(string-join($predecessor/note), <em>[No description.]</em>)[. ne ''][1]}</li>
                                         </ul>
                                     </li>
                             else ()
