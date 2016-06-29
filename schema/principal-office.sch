@@ -14,10 +14,24 @@
         </rule>
     </pattern>
     <pattern>
+        <rule context="valid-from">
+            <assert test="matches(., '^\d{4}$') or matches(., '^\d{4}-\d{2}$') or . castable as xs:date">Date should be yyyy-mm-dd, yyyy-mm, or yyyy</assert>
+        </rule>
+    </pattern>
+    <pattern>
+        <rule context="valid-until[not(contains(base-uri(.), 'current-offices'))]">
+            <assert test=". ne ''">valid-until date required for discontinued or predecessor offices</assert>
+            <assert test="(matches(., '^\d{4}$') or matches(., '^\d{4}-\d{2}$') or . castable as xs:date) and not(contains(base-uri(.), 'current-offices'))">valid-until date should be yyyy-mm-dd, yyyy-mm, or yyyy</assert>
+        </rule>
+        <rule context="valid-until[contains(base-uri(.), 'current-offices')]">
+            <assert test=". = ''">Leave valid-until empty for current offices</assert>
+        </rule>
+    </pattern>
+    <pattern>
         <rule context="date[. ne ''][parent::*/preceding-sibling::*[1][date ne '']]">
             <assert test=". ge ./parent::*/preceding-sibling::*[date ne ''][1]/date">Date ordering
                 problem. expected this date to come after the preceding date.</assert>
-            <assert test="(. = '') or matches(., '^\d{4}$') or matches(., '^\d{4}-\d{2}$') or . castable as xs:date">Date should be yyyy-mm-dd, yyyy-mm, or empty</assert>
+            <assert test="(. = '') or matches(., '^\d{4}$') or matches(., '^\d{4}-\d{2}$') or . castable as xs:date">Date should be yyyy-mm-dd, yyyy-mm, yyyy, or empty</assert>
         </rule>
     </pattern>
     <pattern>
