@@ -1,12 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<schema xmlns="http://purl.oclc.org/dsdl/schematron" xmlns:sqf="http://www.schematron-quickfix.com/validator/process" queryBinding="xslt2">
+<schema xmlns="http://purl.oclc.org/dsdl/schematron" xmlns:sqf="http://www.schematron-quickfix.com/validator/process" queryBinding="xslt3">
     <pattern>
         <rule context="office/id">
+            <let name="base-uri" value="base-uri(.)"/>
             <let name="basename" value="replace(base-uri(.), '^.*/(.*?)$', '$1')"/>
+            <let name="other-office-dirs" value="('current-offices', 'discontinued-positions', 'predecessor-offices')[not(contains($base-uri, .))]"/>
+            <let name="other-office-dirs-with-same-id" value="for $o in $other-office-dirs return if (doc-available('../data/principal-offices/' || $o || '/' || $basename)) then $o else ()"/>
             <assert test="$basename = concat(., '.xml')">The id “<value-of select="."/>” does not
                 match filename “<value-of select="$basename"/>”</assert>
             <assert test="matches(., '^[a-z-]+\d*$')">The id “<value-of select="."/>” may contain
                 only lower case letters, hyphens, and a trailing number</assert>
+            <assert test="count($other-office-dirs-with-same-id) eq 0">There is a file of the same name “<value-of select="$basename"/>” in <value-of select="string-join($other-office-dirs-with-same-id, ' and ')"/> subdirectory(s).</assert>
         </rule>
     </pattern>
     <pattern>
