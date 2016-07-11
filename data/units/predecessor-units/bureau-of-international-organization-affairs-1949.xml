@@ -3,7 +3,7 @@
     <id>bureau-of-international-organization-affairs-1949</id>
     <name>Bureau of International Organization Affairs</name>
     <office-symbol/>
-    <child-of/>
+    <child-of>department-of-state</child-of>
     <valid-from>1949-07-06</valid-from>
     <valid-until>1949-10-26</valid-until>
     <predecessors/>

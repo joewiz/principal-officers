@@ -3,14 +3,14 @@
     <id>bureau-of-western-hemisphere-affairs</id>
     <name>Bureau of Western Hemisphere Affairs</name>
     <office-symbol>WHA</office-symbol>
-    <child-of/>
-    <valid-from/>
+    <child-of>department-of-state</child-of>
+    <valid-from>1949-05-26</valid-from>
     <valid-until/>
     <predecessors/>
     <successors/>
     <note/>
     <created-by>wicentowskijc</created-by>
     <created-date>2015-11-17</created-date>
-    <last-modified-by>wicentowskijc</last-modified-by>
-    <last-modified-date>2015-11-17</last-modified-date>
+    <last-modified-by>jacksonse</last-modified-by>
+    <last-modified-date>2016-07-10</last-modified-date>
 </unit>

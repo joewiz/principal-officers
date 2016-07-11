@@ -3,7 +3,7 @@
     <id>bureau-of-united-nations-affairs-1954</id>
     <name>Bureau of United Nations Affairs</name>
     <office-symbol/>
-    <child-of/>
+    <child-of>department-of-state</child-of>
     <valid-from>1949-10-27</valid-from>
     <valid-until>1954-08-24</valid-until>
     <predecessors>

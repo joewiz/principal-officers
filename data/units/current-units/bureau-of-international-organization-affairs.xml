@@ -3,7 +3,7 @@
     <id>bureau-of-international-organization-affairs</id>
     <name>Bureau of International Organization Affairs</name>
     <office-symbol>IO</office-symbol>
-    <child-of/>
+    <child-of>department-of-state</child-of>
     <valid-from>1954-08-25</valid-from>
     <valid-until/>
     <predecessors>

@@ -3,7 +3,7 @@
     <id>bureau-of-inspection-security-and-consular-affairs</id>
     <name>Bureau of inspection, security, and consular affairs</name>
     <office-symbol/>
-    <child-of/>
+    <child-of>department-of-state</child-of>
     <valid-from>1952-06-27</valid-from>
     <valid-until>1954-03-04</valid-until>
     <predecessors>
@@ -13,6 +13,6 @@
     <note/>
     <created-by>monheimam</created-by>
     <created-date>2016-04-01</created-date>
-    <last-modified-by>monheimam</last-modified-by>
-    <last-modified-date>2016-04-01</last-modified-date>
+    <last-modified-by>jacksonse</last-modified-by>
+    <last-modified-date>2016-07-10</last-modified-date>
 </unit>

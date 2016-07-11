@@ -3,14 +3,14 @@
     <id>bureau-of-international-security-and-nonproliferation</id>
     <name>Bureau of International Security and Nonproliferation</name>
     <office-symbol>ISN</office-symbol>
-    <child-of/>
-    <valid-from/>
+    <child-of>department-of-state</child-of>
+    <valid-from>2005-07-29</valid-from>
     <valid-until/>
     <predecessors/>
     <successors/>
     <note/>
     <created-by>wicentowskijc</created-by>
     <created-date>2015-11-17</created-date>
-    <last-modified-by>wicentowskijc</last-modified-by>
-    <last-modified-date>2015-11-17</last-modified-date>
+    <last-modified-by>jacksonse</last-modified-by>
+    <last-modified-date>2016-07-10</last-modified-date>
 </unit>
