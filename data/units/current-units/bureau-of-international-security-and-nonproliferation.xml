@@ -6,7 +6,10 @@
     <child-of>department-of-state</child-of>
     <valid-from>2005-07-29</valid-from>
     <valid-until/>
-    <predecessors/>
+    <predecessors>
+        <predecessor>bureau-of-arms-control-2005</predecessor>
+        <predecessor>bureau-of-non-proliferation-2005</predecessor>
+    </predecessors>
     <successors/>
     <note/>
     <created-by>wicentowskijc</created-by>
