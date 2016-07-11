@@ -1,56 +1,76 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <office>
-    <id>assistant-secretary-of-state-for-european-and-eurasian-affairs</id>
+    <id>chief-of-protocol</id>
     <old-ids>
-        <old-id>assistant-secretary-for-european-affairs</old-id>
+        <old-id>chief-of-protocol</old-id>
     </old-ids>
-    <name>Assistant Secretary of State for European and Eurasian Affairs</name>
-    <category>assistant-secretary-geo</category>
-    <rank/>
-    <valid-from>1949-05-26</valid-from>
+    <name>Chief of Protocol</name>
+    <category>assistant-secretary-or-equiv</category>
+    <rank>ambassador</rank>
+    <valid-from>1928-02-04</valid-from>
     <valid-until/>
     <predecessors/>
     <successors/>
     <note>
         <div>
-            <p>The Department of State established the position of Assistant Secretary of State for
-                European Affairs in 1949, after the Commission on Organization of the Executive
-                Branch of Government (Hoover Commission) recommended that certain offices be
-                upgraded to bureau level and after Congress had increased the number of Assistant
-                Secretaries of State from six to ten (May 26, 1949; P.L. 81-73; 63 Stat. 111). An
-                administrative action changed the incumbent’s designation to Assistant Secretary for
-                European and Canadian Affairs on Sep 15, 1983. On January 12, 1999, responsibility
-                for Canada was transferred to the Bureau of Western Hemisphere Affairs, and so the
-                Bureau of European and Canadian Affairs was renamed the Bureau of European Affairs.
-                The name changed to the Bureau of European and Eurasian Affairs on August 8, 2001.
-                The Department of State first established a Division of Western European Affairs in
-                1909, which handled European nations primarily bordering on the Atlantic Ocean and
-                their colonies. The Division of Near Eastern Affairs handled relations with most
-                Central, Eastern, and Southern European countries until after World War I. During
-                the interwar period, responsibility for much of Central and Eastern Europe shifted
-                to the Division of European Affairs, although Greece, Turkey, and Cyprus were
-                handled as part of the Near East until Apr 18, 1974. Following World War II, the
-                Department completed the transfer of responsibility for the former colonies of
-                European nations, except Canada, to the Bureau of Near Eastern, South Asian, and
-                African Affairs and the Bureau of Far Eastern Affairs.</p>
+            <p>All Chiefs of the Division of Protocol/Conferences/International Conferences were
+                designated, not commissioned. In 1946, the President commissioned the State Department's
+                Chief of Protocol to also carry the title "Chief of Protocol of the White House."
+                In 1916, the Department of State appointed the first U.S. official to be
+                concerned on a full-time basis with protocol, which is the diplomatic procedure
+                governed by law or international custom and practice. The Department first
+                established a Division of Protocol on Feb 4, 1928. Previous to the establishment of
+                Chief of Protocol in tandem with the establishment of the division, Charles Lee Cooke
+                was designated Ceremonial Officer in 1916, the first State Department official to be
+                concerned on a full-time basis with protocol; he was formally appointed to the
+                position in 1919. Since 1961, the Chief of Protocol has been commissioned an Ambassador,
+                requiring the President's nominee to be confirmed by the Senate. The
+                Protocol Office has been part of the Office of the Secretary of State since July 12,
+                1965. The Chief of Protocol serves as the protocol officer for the U.S. Government
+                and advises the President, the Vice President, the Secretary of State, and other
+                high-ranking officials on this subject.</p>
         </div>
     </note>
     <officers>
         <officer>
-            <id>affa-1949-perk</id>
-            <person-id>perkins-george-walbridge</person-id>
-            <contemporary-office-id>assistant-secretary-of-state-for-european-and-eurasian-affairs</contemporary-office-id>
+            <id>prot-1928-dunn</id>
+            <person-id>dunn-james-clement</person-id>
+            <contemporary-office-id>chief-of-protocol</contemporary-office-id>
             <mid-term-new-office-id/>
             <appointed>
-                <date>1949-06-24</date>
+                <date>1928-02-04</date>
                 <note/>
             </appointed>
             <started>
-                <date>1949-08-01</date>
+                <date>1928-02-04</date>
                 <note/>
             </started>
             <ended>
-                <date>1953-01-31</date>
+                <date>1930-11-17</date>
+                <note/>
+            </ended>
+            <note>Chief of the Division of International Conferences and Protocol, February 15,
+                1929.</note>
+            <created-by>wicentowskijc</created-by>
+            <created-date>2010-05-20</created-date>
+            <last-modified-by>wicentowskijc</last-modified-by>
+            <last-modified-date>2010-05-20</last-modified-date>
+        </officer>
+        <officer>
+            <id>prot-1931-robb</id>
+            <person-id>robbins-warren-delano</person-id>
+            <contemporary-office-id>chief-of-protocol</contemporary-office-id>
+            <mid-term-new-office-id/>
+            <appointed>
+                <date>1931-09-15</date>
+                <note/>
+            </appointed>
+            <started>
+                <date>1931-09-15</date>
+                <note/>
+            </started>
+            <ended>
+                <date>1933-06-11</date>
                 <note/>
             </ended>
             <note/>
@@ -60,20 +80,20 @@
             <last-modified-date>2010-05-20</last-modified-date>
         </officer>
         <officer>
-            <id>affa-1953-merc</id>
-            <person-id>merchant-livingston-tallmadge</person-id>
-            <contemporary-office-id>assistant-secretary-of-state-for-european-and-eurasian-affairs</contemporary-office-id>
+            <id>prot-1933-dunn</id>
+            <person-id>dunn-james-clement</person-id>
+            <contemporary-office-id>chief-of-protocol</contemporary-office-id>
             <mid-term-new-office-id/>
             <appointed>
-                <date>1953-03-11</date>
+                <date>1933-06-11</date>
                 <note/>
             </appointed>
             <started>
-                <date>1953-03-16</date>
+                <date>1933-06-11</date>
                 <note/>
             </started>
             <ended>
-                <date>1956-05-06</date>
+                <date>1935-04-11</date>
                 <note/>
             </ended>
             <note/>
@@ -83,137 +103,67 @@
             <last-modified-date>2010-05-20</last-modified-date>
         </officer>
         <officer>
-            <id>affa-1953-merc</id>
-            <person-id>merchant-livingston-tallmadge</person-id>
-            <contemporary-office-id>assistant-secretary-of-state-for-european-and-eurasian-affairs</contemporary-office-id>
+            <id>prot-1937-summ</id>
+            <person-id>summerlin-george-thomas</person-id>
+            <contemporary-office-id>chief-of-protocol</contemporary-office-id>
             <mid-term-new-office-id/>
             <appointed>
-                <date>1953-10-29</date>
+                <date>1937-07-29</date>
                 <note/>
             </appointed>
             <started>
-                <date>1958-11-18</date>
-                <note/>
-            </started>
-            <ended>
-                <date>1959-08-20</date>
-                <note/>
-            </ended>
-            <note>Commissioned during a recess of the Senate; recommissioned after confirmation on
-                Jan 29, 1959.</note>
-            <created-by>wicentowskijc</created-by>
-            <created-date>2010-05-20</created-date>
-            <last-modified-by>wicentowskijc</last-modified-by>
-            <last-modified-date>2010-05-20</last-modified-date>
-        </officer>
-        <officer>
-            <id>affa-1956-ridd</id>
-            <person-id>riddleberger-james-williams</person-id>
-            <contemporary-office-id>assistant-secretary-of-state-for-european-and-eurasian-affairs</contemporary-office-id>
-            <mid-term-new-office-id/>
-            <appointed>
-                <date>1956-10-15</date>
-                <note/>
-            </appointed>
-            <started>
-                <date/>
-                <note/>
-            </started>
-            <ended>
-                <date/>
-                <note/>
-            </ended>
-            <note>Commissioned during a recess of the Senate; declined appointment.</note>
-            <created-by>wicentowskijc</created-by>
-            <created-date>2010-05-20</created-date>
-            <last-modified-by>wicentowskijc</last-modified-by>
-            <last-modified-date>2010-05-20</last-modified-date>
-        </officer>
-        <officer>
-            <id>affa-1957-elbr</id>
-            <person-id>elbrick-charles-burke</person-id>
-            <contemporary-office-id>assistant-secretary-of-state-for-european-and-eurasian-affairs</contemporary-office-id>
-            <mid-term-new-office-id/>
-            <appointed>
-                <date>1957-02-11</date>
-                <note/>
-            </appointed>
-            <started>
-                <date>1957-02-14</date>
-                <note/>
-            </started>
-            <ended>
-                <date>1958-11-16</date>
-                <note/>
-            </ended>
-            <note/>
-            <created-by>wicentowskijc</created-by>
-            <created-date>2010-05-20</created-date>
-            <last-modified-by>wicentowskijc</last-modified-by>
-            <last-modified-date>2010-05-20</last-modified-date>
-        </officer>
-        <officer>
-            <id>affa-1959-dowl</id>
-            <person-id>dowling-walter-cecil</person-id>
-            <contemporary-office-id>assistant-secretary-of-state-for-european-and-eurasian-affairs</contemporary-office-id>
-            <mid-term-new-office-id/>
-            <appointed>
-                <date>1959-08-26</date>
-                <note/>
-            </appointed>
-            <started>
-                <date/>
+                <date>1938-07-29</date>
                 <note/>
             </started>
             <ended>
                 <date/>
-                <note/>
+                <note>Promoted to Special Assistant to the Secretary and Chief of Protocol,
+                    1944-01-15.</note>
             </ended>
-            <note>Did not take oath of office under this appointment.</note>
+            <note/>
             <created-by>wicentowskijc</created-by>
             <created-date>2010-05-20</created-date>
             <last-modified-by>wicentowskijc</last-modified-by>
             <last-modified-date>2010-05-20</last-modified-date>
         </officer>
         <officer>
-            <id>affa-1959-kohl</id>
-            <person-id>kohler-foy-david</person-id>
-            <contemporary-office-id>assistant-secretary-of-state-for-european-and-eurasian-affairs</contemporary-office-id>
+            <id>prot-1944-wood</id>
+            <person-id>woodward-stanley</person-id>
+            <contemporary-office-id>chief-of-protocol</contemporary-office-id>
             <mid-term-new-office-id/>
             <appointed>
-                <date>1959-12-11</date>
+                <date>1944-01-15</date>
                 <note/>
             </appointed>
             <started>
-                <date>1959-12-11</date>
+                <date>1944-01-15</date>
                 <note/>
             </started>
             <ended>
-                <date>1962-08-19</date>
+                <date>1950-05-22</date>
                 <note/>
             </ended>
-            <note>Commissioned during a recess of the Senate; recommissioned after confirmation on
-                Jan 27, 1960.</note>
+            <note>As of July 15, 1946, this position also known as Chief of Protocol for the White House.</note>
             <created-by>wicentowskijc</created-by>
             <created-date>2010-05-20</created-date>
-            <last-modified-by>wicentowskijc</last-modified-by>
-            <last-modified-date>2010-05-20</last-modified-date>
+            <last-modified-by>jacksonse</last-modified-by>
+            <last-modified-date>2016-07-11</last-modified-date>
         </officer>
         <officer>
-            <id>affa-1962-tyle</id>
-            <person-id>tyler-william-royall</person-id>
-            <contemporary-office-id>assistant-secretary-of-state-for-european-and-eurasian-affairs</contemporary-office-id>
+            <id>prot-1950-simm</id>
+            <person-id>simmons-john-farr</person-id>
+            <contemporary-office-id>chief-of-protocol</contemporary-office-id>
             <mid-term-new-office-id/>
             <appointed>
-                <date>1962-08-20</date>
+                <date>1950-07-21</date>
                 <note/>
             </appointed>
             <started>
-                <date>1962-09-02</date>
+                <date>1950-08-18</date>
                 <note/>
             </started>
             <ended>
-                <date>1965-05-18</date>
+                <date>1957-01-31</date>
                 <note/>
             </ended>
             <note/>
@@ -223,20 +173,20 @@
             <last-modified-date>2010-05-20</last-modified-date>
         </officer>
         <officer>
-            <id>affa-1965-ledd</id>
-            <person-id>leddy-john-marshall</person-id>
-            <contemporary-office-id>assistant-secretary-of-state-for-european-and-eurasian-affairs</contemporary-office-id>
+            <id>prot-1957-buch</id>
+            <person-id>buchanan-wiley-thomas</person-id>
+            <contemporary-office-id>chief-of-protocol</contemporary-office-id>
             <mid-term-new-office-id/>
             <appointed>
-                <date>1965-06-04</date>
+                <date>1957-02-04</date>
                 <note/>
             </appointed>
             <started>
-                <date>1965-06-16</date>
+                <date>1957-02-04</date>
                 <note/>
             </started>
             <ended>
-                <date>1969-02-19</date>
+                <date>1961-01-23</date>
                 <note/>
             </ended>
             <note/>
@@ -246,158 +196,232 @@
             <last-modified-date>2010-05-20</last-modified-date>
         </officer>
         <officer>
-            <id>affa-1969-hill</id>
-            <person-id>hillenbrand-martin-joseph-anthony</person-id>
-            <contemporary-office-id>assistant-secretary-of-state-for-european-and-eurasian-affairs</contemporary-office-id>
+            <id>prot-1961-duke</id>
+            <person-id>duke-angier-biddle</person-id>
+            <contemporary-office-id>chief-of-protocol</contemporary-office-id>
             <mid-term-new-office-id/>
             <appointed>
-                <date>1969-02-07</date>
+                <date>1961-01-24</date>
                 <note/>
             </appointed>
             <started>
-                <date>1969-02-20</date>
+                <date>1961-01-24</date>
                 <note/>
             </started>
             <ended>
-                <date>1972-04-30</date>
+                <date>1965-01-20</date>
+                <note/>
+            </ended>
+            <note/>
+            <created-by>wicentowskijc</created-by>
+            <created-date>2010-05-20</created-date>
+            <last-modified-by>wicentowskijc</last-modified-by>
+            <last-modified-date>2010-05-20</last-modified-date>
+        </officer>
+        <officer>
+            <id>prot-1965-hand</id>
+            <person-id>hand-lloyd-nelson</person-id>
+            <contemporary-office-id>chief-of-protocol</contemporary-office-id>
+            <mid-term-new-office-id/>
+            <appointed>
+                <date>1965-01-21</date>
+                <note/>
+            </appointed>
+            <started>
+                <date>1965-01-21</date>
+                <note/>
+            </started>
+            <ended>
+                <date>1966-03-21</date>
+                <note/>
+            </ended>
+            <note/>
+            <created-by>wicentowskijc</created-by>
+            <created-date>2010-05-20</created-date>
+            <last-modified-by>wicentowskijc</last-modified-by>
+            <last-modified-date>2010-05-20</last-modified-date>
+        </officer>
+        <officer>
+            <id>prot-1966-symi</id>
+            <person-id>symington-james-wadsworth</person-id>
+            <contemporary-office-id>chief-of-protocol</contemporary-office-id>
+            <mid-term-new-office-id/>
+            <appointed>
+                <date>1966-03-22</date>
+                <note/>
+            </appointed>
+            <started>
+                <date>1966-03-22</date>
+                <note/>
+            </started>
+            <ended>
+                <date>1968-03-31</date>
+                <note/>
+            </ended>
+            <note/>
+            <created-by>wicentowskijc</created-by>
+            <created-date>2010-05-20</created-date>
+            <last-modified-by>wicentowskijc</last-modified-by>
+            <last-modified-date>2010-05-20</last-modified-date>
+        </officer>
+        <officer>
+            <id>prot-1968-duke</id>
+            <person-id>duke-angier-biddle</person-id>
+            <contemporary-office-id>chief-of-protocol</contemporary-office-id>
+            <mid-term-new-office-id/>
+            <appointed>
+                <date>1968-03-26</date>
+                <note/>
+            </appointed>
+            <started>
+                <date>1968-04-01</date>
+                <note/>
+            </started>
+            <ended>
+                <date>1968-09-26</date>
+                <note/>
+            </ended>
+            <note/>
+            <created-by>wicentowskijc</created-by>
+            <created-date>2010-05-20</created-date>
+            <last-modified-by>wicentowskijc</last-modified-by>
+            <last-modified-date>2010-05-20</last-modified-date>
+        </officer>
+        <officer>
+            <id>prot-1968-abel</id>
+            <person-id>abell-tyler</person-id>
+            <contemporary-office-id>chief-of-protocol</contemporary-office-id>
+            <mid-term-new-office-id/>
+            <appointed>
+                <date>1968-09-25</date>
+                <note/>
+            </appointed>
+            <started>
+                <date>1968-09-30</date>
+                <note/>
+            </started>
+            <ended>
+                <date>1969-01-20</date>
+                <note/>
+            </ended>
+            <note/>
+            <created-by>wicentowskijc</created-by>
+            <created-date>2010-05-20</created-date>
+            <last-modified-by>wicentowskijc</last-modified-by>
+            <last-modified-date>2010-05-20</last-modified-date>
+        </officer>
+        <officer>
+            <id>prot-1969-mosb</id>
+            <person-id>mosbacher-emil</person-id>
+            <contemporary-office-id>chief-of-protocol</contemporary-office-id>
+            <mid-term-new-office-id/>
+            <appointed>
+                <date>1969-01-28</date>
+                <note/>
+            </appointed>
+            <started>
+                <date/>
+                <note>Had been serving since Jan 21, 1969, under an appointment by the Secretary of
+                    State.</note>
+            </started>
+            <ended>
+                <date>1972-06-30</date>
+                <note/>
+            </ended>
+            <note/>
+            <created-by>wicentowskijc</created-by>
+            <created-date>2010-05-20</created-date>
+            <last-modified-by>wicentowskijc</last-modified-by>
+            <last-modified-date>2010-05-20</last-modified-date>
+        </officer>
+        <officer>
+            <id>prot-1974-smoa</id>
+            <person-id>smoak-marion-hartzog</person-id>
+            <contemporary-office-id>chief-of-protocol</contemporary-office-id>
+            <mid-term-new-office-id/>
+            <appointed>
+                <date>1974-03-01</date>
+                <note/>
+            </appointed>
+            <started>
+                <date/>
+                <note>Took oath of office Mar 29, 1974, as Chief of Protocol for the White House, but no
+                    personnel action was processed to reflect this appointment; resignation effective
+                    Mar 30, 1974, was processed as a resignation of the office of Deputy Chiefs of
+                    Protocol. Smoak had previously been accorded the rank of Ambassador while serving as
+                    Acting Chief.</note>
+            </started>
+            <ended>
+                <date>1974-03-30</date>
+                <note/>
+            </ended>
+            <note/>
+            <created-by>wicentowskijc</created-by>
+            <created-date>2010-05-20</created-date>
+            <last-modified-by>wicentowskijc</last-modified-by>
+            <last-modified-date>2010-05-20</last-modified-date>
+        </officer>
+        <officer>
+            <id>prot-1974-catt</id>
+            <person-id>catto-henry-edward-jr</person-id>
+            <contemporary-office-id>chief-of-protocol</contemporary-office-id>
+            <mid-term-new-office-id/>
+            <appointed>
+                <date>1974-04-02</date>
+                <note/>
+            </appointed>
+            <started>
+                <date>1974-04-03</date>
+                <note/>
+            </started>
+            <ended>
+                <date>1976-07-01</date>
                 <note/>
             </ended>
             <note/>
             <created-by>wicentowskijc</created-by>
             <created-date>2010-05-20</created-date>
             <last-modified-by>marrsaw</last-modified-by>
-            <last-modified-date>2013-04-10</last-modified-date>
+            <last-modified-date>2013-03-28</last-modified-date>
         </officer>
         <officer>
-            <id>affa-1972-stoe</id>
-            <person-id>stoessel-walter-john</person-id>
-            <contemporary-office-id>assistant-secretary-of-state-for-european-and-eurasian-affairs</contemporary-office-id>
+            <id>prot-1976-blac</id>
+            <person-id>black-shirley-jane-temple</person-id>
+            <contemporary-office-id>chief-of-protocol</contemporary-office-id>
             <mid-term-new-office-id/>
             <appointed>
-                <date>1972-07-25</date>
+                <date>1976-07-01</date>
                 <note/>
             </appointed>
             <started>
-                <date>1972-08-09</date>
+                <date>1976-07-01</date>
                 <note/>
             </started>
             <ended>
-                <date>1974-01-07</date>
-                <note/>
-            </ended>
-            <note/>
-            <created-by>wicentowskijc</created-by>
-            <created-date>2010-05-20</created-date>
-            <last-modified-by>wicentowskijc</last-modified-by>
-            <last-modified-date>2010-05-20</last-modified-date>
-        </officer>
-        <officer>
-            <id>affa-1973-hart</id>
-            <person-id>hartman-arthur-adair</person-id>
-            <contemporary-office-id>assistant-secretary-of-state-for-european-and-eurasian-affairs</contemporary-office-id>
-            <mid-term-new-office-id/>
-            <appointed>
-                <date>1973-12-19</date>
-                <note/>
-            </appointed>
-            <started>
-                <date>1974-01-08</date>
-                <note/>
-            </started>
-            <ended>
-                <date>1977-06-08</date>
-                <note/>
-            </ended>
-            <note/>
-            <created-by>wicentowskijc</created-by>
-            <created-date>2010-05-20</created-date>
-            <last-modified-by>wicentowskijc</last-modified-by>
-            <last-modified-date>2010-05-20</last-modified-date>
-        </officer>
-        <officer>
-            <id>affa-1977-vest</id>
-            <person-id>vest-george-southall</person-id>
-            <contemporary-office-id>assistant-secretary-of-state-for-european-and-eurasian-affairs</contemporary-office-id>
-            <mid-term-new-office-id/>
-            <appointed>
-                <date>1977-05-26</date>
-                <note/>
-            </appointed>
-            <started>
-                <date>1977-06-16</date>
-                <note/>
-            </started>
-            <ended>
-                <date>1981-04-14</date>
-                <note/>
-            </ended>
-            <note/>
-            <created-by>wicentowskijc</created-by>
-            <created-date>2010-05-20</created-date>
-            <last-modified-by>wicentowskijc</last-modified-by>
-            <last-modified-date>2010-05-20</last-modified-date>
-        </officer>
-        <officer>
-            <id>affa-1981-eagl</id>
-            <person-id>eagleburger-lawrence-sidney</person-id>
-            <contemporary-office-id>assistant-secretary-of-state-for-european-and-eurasian-affairs</contemporary-office-id>
-            <mid-term-new-office-id/>
-            <appointed>
-                <date>1981-05-14</date>
-                <note/>
-            </appointed>
-            <started>
-                <date>1981-05-14</date>
-                <note/>
-            </started>
-            <ended>
-                <date>1982-01-26</date>
-                <note/>
-            </ended>
-            <note/>
-            <created-by>wicentowskijc</created-by>
-            <created-date>2010-05-20</created-date>
-            <last-modified-by>wicentowskijc</last-modified-by>
-            <last-modified-date>2011-01-24</last-modified-date>
-        </officer>
-        <officer>
-            <id>affa-1983-burt</id>
-            <person-id>burt-richard-r</person-id>
-            <contemporary-office-id>assistant-secretary-of-state-for-european-and-eurasian-affairs</contemporary-office-id>
-            <mid-term-new-office-id/>
-            <appointed>
-                <date>1983-02-17</date>
-                <note/>
-            </appointed>
-            <started>
-                <date>1983-02-18</date>
-                <note/>
-            </started>
-            <ended>
-                <date>1985-07-18</date>
+                <date>1977-01-21</date>
                 <note/>
             </ended>
             <note/>
             <created-by>wicentowskijc</created-by>
             <created-date>2010-05-20</created-date>
             <last-modified-by>marrsaw</last-modified-by>
-            <last-modified-date>2015-05-12</last-modified-date>
+            <last-modified-date>2014-02-11</last-modified-date>
         </officer>
         <officer>
-            <id>affa-1985-ridg</id>
-            <person-id>ridgway-rozanne-lejeanne</person-id>
-            <contemporary-office-id>assistant-secretary-of-state-for-european-and-eurasian-affairs</contemporary-office-id>
+            <id>prot-1977-dobe</id>
+            <person-id>dobelle-evan-samuel</person-id>
+            <contemporary-office-id>chief-of-protocol</contemporary-office-id>
             <mid-term-new-office-id/>
             <appointed>
-                <date>1985-07-18</date>
+                <date>1977-02-09</date>
                 <note/>
             </appointed>
             <started>
-                <date>1985-07-19</date>
+                <date>1977-03-02</date>
                 <note/>
             </started>
             <ended>
-                <date>1989-06-30</date>
+                <date>1978-05-22</date>
                 <note/>
             </ended>
             <note/>
@@ -407,20 +431,20 @@
             <last-modified-date>2010-05-20</last-modified-date>
         </officer>
         <officer>
-            <id>affa-1989-seit</id>
-            <person-id>seitz-raymond-george-hardenbergh</person-id>
-            <contemporary-office-id>assistant-secretary-of-state-for-european-and-eurasian-affairs</contemporary-office-id>
+            <id>prot-1978-dobe</id>
+            <person-id>dobelle-edith-huntington-jones</person-id>
+            <contemporary-office-id>chief-of-protocol</contemporary-office-id>
             <mid-term-new-office-id/>
             <appointed>
-                <date>1989-08-07</date>
+                <date>1978-08-17</date>
                 <note/>
             </appointed>
             <started>
-                <date>1989-08-08</date>
+                <date>1978-11-03</date>
                 <note/>
             </started>
             <ended>
-                <date>1991-04-30</date>
+                <date>1979-09-26</date>
                 <note/>
             </ended>
             <note/>
@@ -430,43 +454,20 @@
             <last-modified-date>2010-05-20</last-modified-date>
         </officer>
         <officer>
-            <id>affa-1991-nile</id>
-            <person-id>niles-thomas-michael-tolliver</person-id>
-            <contemporary-office-id>assistant-secretary-of-state-for-european-and-eurasian-affairs</contemporary-office-id>
+            <id>prot-1979-vald</id>
+            <person-id>valdez-abelardo-lopez</person-id>
+            <contemporary-office-id>chief-of-protocol</contemporary-office-id>
             <mid-term-new-office-id/>
             <appointed>
-                <date>1991-10-03</date>
+                <date>1979-10-12</date>
                 <note/>
             </appointed>
             <started>
-                <date>1991-10-03</date>
+                <date>1979-10-19</date>
                 <note/>
             </started>
             <ended>
-                <date>1993-04-01</date>
-                <note/>
-            </ended>
-            <note/>
-            <created-by>wicentowskijc</created-by>
-            <created-date>2010-05-20</created-date>
-            <last-modified-by>wicentowskijc</last-modified-by>
-            <last-modified-date>2011-05-24</last-modified-date>
-        </officer>
-        <officer>
-            <id>affa-1993-oxma</id>
-            <person-id>oxman-stephen-a</person-id>
-            <contemporary-office-id>assistant-secretary-of-state-for-european-and-eurasian-affairs</contemporary-office-id>
-            <mid-term-new-office-id/>
-            <appointed>
-                <date>1993-04-01</date>
-                <note/>
-            </appointed>
-            <started>
-                <date>1993-04-02</date>
-                <note/>
-            </started>
-            <ended>
-                <date>1994-08-15</date>
+                <date>1981-01-21</date>
                 <note/>
             </ended>
             <note/>
@@ -476,43 +477,43 @@
             <last-modified-date>2010-05-20</last-modified-date>
         </officer>
         <officer>
-            <id>affa-1994-holb</id>
-            <person-id>holbrooke-richard-charles-albert</person-id>
-            <contemporary-office-id>assistant-secretary-of-state-for-european-and-eurasian-affairs</contemporary-office-id>
+            <id>prot-1981-anne</id>
+            <person-id>annenberg-leonore</person-id>
+            <contemporary-office-id>chief-of-protocol</contemporary-office-id>
             <mid-term-new-office-id/>
             <appointed>
-                <date>1994-08-26</date>
+                <date>1981-03-16</date>
                 <note/>
             </appointed>
             <started>
-                <date>1994-09-13</date>
+                <date>1981-03-20</date>
                 <note/>
             </started>
             <ended>
-                <date>1996-02-21</date>
+                <date>1982-01-06</date>
                 <note/>
             </ended>
             <note/>
             <created-by>wicentowskijc</created-by>
             <created-date>2010-05-20</created-date>
             <last-modified-by>marrsaw</last-modified-by>
-            <last-modified-date>2014-08-12</last-modified-date>
+            <last-modified-date>2013-03-14</last-modified-date>
         </officer>
         <officer>
-            <id>affa-1996-korn</id>
-            <person-id>kornblum-john-christian</person-id>
-            <contemporary-office-id>assistant-secretary-of-state-for-european-and-eurasian-affairs</contemporary-office-id>
+            <id>prot-1982-roos</id>
+            <person-id>roosevelt-selwa</person-id>
+            <contemporary-office-id>chief-of-protocol</contemporary-office-id>
             <mid-term-new-office-id/>
             <appointed>
-                <date>1996-07-02</date>
+                <date>1982-05-11</date>
                 <note/>
             </appointed>
             <started>
-                <date>1996-07-03</date>
+                <date>1982-05-16</date>
                 <note/>
             </started>
             <ended>
-                <date>1997-08-01</date>
+                <date>1989-01-20</date>
                 <note/>
             </ended>
             <note/>
@@ -522,66 +523,112 @@
             <last-modified-date>2010-05-20</last-modified-date>
         </officer>
         <officer>
-            <id>affa-1997-gros</id>
-            <person-id>grossman-marc-isaiah</person-id>
-            <contemporary-office-id>assistant-secretary-of-state-for-european-and-eurasian-affairs</contemporary-office-id>
+            <id>prot-1989-reed</id>
+            <person-id>reed-joseph-verner</person-id>
+            <contemporary-office-id>chief-of-protocol</contemporary-office-id>
             <mid-term-new-office-id/>
             <appointed>
-                <date>1997-08-01</date>
+                <date>1989-02-03</date>
                 <note/>
             </appointed>
             <started>
-                <date>1997-08-05</date>
+                <date>1989-05-21</date>
                 <note/>
             </started>
             <ended>
-                <date>2000-05-31</date>
+                <date>1991-10-21</date>
                 <note/>
             </ended>
-            <note>Title changed from European and Canadian Affairs Jan 12, 1999.</note>
+            <note>Date of commission June 23, 1989.</note>
             <created-by>wicentowskijc</created-by>
             <created-date>2010-05-20</created-date>
             <last-modified-by>wicentowskijc</last-modified-by>
             <last-modified-date>2010-05-20</last-modified-date>
         </officer>
         <officer>
-            <id>affa-2000-dobb</id>
-            <person-id>dobbins-james-f</person-id>
-            <contemporary-office-id>assistant-secretary-of-state-for-european-and-eurasian-affairs</contemporary-office-id>
+            <id>prot-1991-wein</id>
+            <person-id>weinmann-john-griffin</person-id>
+            <contemporary-office-id>chief-of-protocol</contemporary-office-id>
             <mid-term-new-office-id/>
             <appointed>
-                <date>2000-12-29</date>
-                <note/>
-            </appointed>
-            <started>
-                <date>2001-01-04</date>
-                <note/>
-            </started>
-            <ended>
                 <date/>
                 <note/>
+            </appointed>
+            <started>
+                <date>1991-10-31</date>
+                <note/>
+            </started>
+            <ended>
+                <date>1993-01-20</date>
+                <note/>
             </ended>
-            <note>Commissioned during a recess of the Senate.</note>
+            <note>Designated by the Secretary of State on November 21, 1991.</note>
             <created-by>wicentowskijc</created-by>
             <created-date>2010-05-20</created-date>
-            <last-modified-by>marrsaw</last-modified-by>
-            <last-modified-date>2015-05-12</last-modified-date>
+            <last-modified-by>wicentowskijc</last-modified-by>
+            <last-modified-date>2010-05-20</last-modified-date>
         </officer>
         <officer>
-            <id>affa-2001-jone</id>
-            <person-id>jones-a-elizabeth</person-id>
-            <contemporary-office-id>assistant-secretary-of-state-for-european-and-eurasian-affairs</contemporary-office-id>
+            <id>prot-1993-rais</id>
+            <person-id>raiser-mary-molly-millonzi</person-id>
+            <contemporary-office-id>chief-of-protocol</contemporary-office-id>
+            <mid-term-new-office-id/>
+            <appointed>
+                <date>1993-08-02</date>
+                <note/>
+            </appointed>
+            <started>
+                <date>1993-09-14</date>
+                <note/>
+            </started>
+            <ended>
+                <date>1997-07-24</date>
+                <note/>
+            </ended>
+            <note/>
+            <created-by>wicentowskijc</created-by>
+            <created-date>2010-05-20</created-date>
+            <last-modified-by>wicentowskijc</last-modified-by>
+            <last-modified-date>2010-05-20</last-modified-date>
+        </officer>
+        <officer>
+            <id>prot-1997-fren</id>
+            <person-id>french-mary-mel</person-id>
+            <contemporary-office-id>chief-of-protocol</contemporary-office-id>
+            <mid-term-new-office-id/>
+            <appointed>
+                <date>1997-11-10</date>
+                <note/>
+            </appointed>
+            <started>
+                <date>1997-11-13</date>
+                <note/>
+            </started>
+            <ended>
+                <date>2001-01-20</date>
+                <note/>
+            </ended>
+            <note/>
+            <created-by>wicentowskijc</created-by>
+            <created-date>2010-05-20</created-date>
+            <last-modified-by>wicentowskijc</last-modified-by>
+            <last-modified-date>2010-05-20</last-modified-date>
+        </officer>
+        <officer>
+            <id>prot-2001-ense</id>
+            <person-id>ensenat-donald-burnham</person-id>
+            <contemporary-office-id>chief-of-protocol</contemporary-office-id>
             <mid-term-new-office-id/>
             <appointed>
                 <date>2001-05-31</date>
                 <note/>
             </appointed>
             <started>
-                <date>2001-06-01</date>
+                <date>2001-06-06</date>
                 <note/>
             </started>
             <ended>
-                <date>2005-02-28</date>
+                <date>2007-02-18</date>
                 <note/>
             </ended>
             <note/>
@@ -591,62 +638,62 @@
             <last-modified-date>2010-05-20</last-modified-date>
         </officer>
         <officer>
-            <id>affa-2005-frie</id>
-            <person-id>fried-daniel</person-id>
-            <contemporary-office-id>assistant-secretary-of-state-for-european-and-eurasian-affairs</contemporary-office-id>
+            <id>prot-2007-brin</id>
+            <person-id>brinker-nancy-goodman</person-id>
+            <contemporary-office-id>chief-of-protocol</contemporary-office-id>
             <mid-term-new-office-id/>
             <appointed>
-                <date>2005-05-05</date>
+                <date>2007-09-14</date>
                 <note/>
             </appointed>
             <started>
-                <date>2005-05-05</date>
+                <date>2007-09-14</date>
                 <note/>
             </started>
             <ended>
-                <date>2009-05-14</date>
+                <date>2009-01-20</date>
                 <note/>
             </ended>
-            <note>Title changed from European Affairs Aug 8, 2001.</note>
+            <note/>
             <created-by>wicentowskijc</created-by>
             <created-date>2010-05-20</created-date>
             <last-modified-by>wicentowskijc</last-modified-by>
             <last-modified-date>2010-11-05</last-modified-date>
         </officer>
         <officer>
-            <id>affa-2009-gord</id>
-            <person-id>gordon-philip-h</person-id>
-            <contemporary-office-id>assistant-secretary-of-state-for-european-and-eurasian-affairs</contemporary-office-id>
+            <id>prot-2009-mars</id>
+            <person-id>marshall-capricia-penavic</person-id>
+            <contemporary-office-id>chief-of-protocol</contemporary-office-id>
             <mid-term-new-office-id/>
             <appointed>
-                <date>2009-05-15</date>
+                <date>2009-08-03</date>
                 <note/>
             </appointed>
             <started>
-                <date>2009-05-15</date>
+                <date>2009-08-03</date>
                 <note/>
             </started>
             <ended>
-                <date>2013-03-11</date>
+                <date>2013-08-16</date>
                 <note/>
             </ended>
             <note/>
-            <created-by>wicentowskijc</created-by>
-            <created-date>2010-11-05</created-date>
+            <created-by>marrsaw</created-by>
+            <created-date>2014-07-15</created-date>
             <last-modified-by>marrsaw</last-modified-by>
-            <last-modified-date>2013-10-01</last-modified-date>
+            <last-modified-date>2014-07-15</last-modified-date>
         </officer>
         <officer>
-            <id>affa-2013-nula</id>
-            <person-id>nuland-victoria-jane</person-id>
-            <contemporary-office-id>assistant-secretary-of-state-for-european-and-eurasian-affairs</contemporary-office-id>
+            <id>prot-2014-self</id>
+            <person-id>selfridge-peter-a</person-id>
+            <contemporary-office-id>chief-of-protocol</contemporary-office-id>
             <mid-term-new-office-id/>
             <appointed>
-                <date>2013-09-13</date>
+                <date>2014-05-12</date>
                 <note/>
             </appointed>
             <started>
-                <date>2013-09-18</date>
+                <date>2014-05-13</date>
                 <note/>
             </started>
             <ended>
@@ -654,15 +701,15 @@
                 <note/>
             </ended>
             <note/>
-            <created-by>wicentowskijc</created-by>
-            <created-date>2010-05-20</created-date>
+            <created-by>marrsaw</created-by>
+            <created-date>2014-07-15</created-date>
             <last-modified-by>marrsaw</last-modified-by>
-            <last-modified-date>2014-07-21</last-modified-date>
+            <last-modified-date>2015-05-05</last-modified-date>
         </officer>
     </officers>
     <other-appointees/>
     <created-by>wicentowskijc</created-by>
     <created-date>2014-09-18</created-date>
-    <last-modified-by>wicentowskijc</last-modified-by>
-    <last-modified-date>2014-09-18</last-modified-date>
+    <last-modified-by>jacksonse</last-modified-by>
+    <last-modified-date>2016-07-11</last-modified-date>
 </office>
