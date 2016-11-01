@@ -4,13 +4,15 @@
     <name>Bureau of Legislative Affairs</name>
     <office-symbol>H</office-symbol>
     <child-of>department-of-state</child-of>
-    <valid-from/>
+    <valid-from>1987-10-01</valid-from>
     <valid-until/>
-    <predecessors/>
+    <predecessors>
+        <predecessor>bureau-of-legislative-and-intergovernmental-affairs-1987</predecessor>
+    </predecessors>
     <successors/>
     <note/>
     <created-by>wicentowskijc</created-by>
     <created-date>2015-11-17</created-date>
     <last-modified-by>jacksonse</last-modified-by>
-    <last-modified-date>2016-07-10</last-modified-date>
+    <last-modified-date>2016-09-24</last-modified-date>
 </unit>

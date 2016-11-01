@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<office>
+    <id>director-of-the-office-of-management-operations-1988</id>
+    <old-ids>
+        <old-id>director-office-mgmt-policy</old-id>
+    </old-ids>
+    <name>Director of the Office of Management Policy</name>
+    <category>discontinued</category>
+    <rank>assistant-secretary-of-state</rank>
+    <valid-from>1975-05-27</valid-from>
+    <valid-until>1988-10-31</valid-until>
+    <predecessors/>
+    <successors>
+        <successor>director-of-the-office-of-management-policy-1989</successor>
+    </successors>
+    <note>
+        <div>
+            <p>The Department of State organized the Office of Management Operations in May 1975
+                from the former Management Systems Staff, which had developed and examined new
+                management systems and techniques. The Directors of the Office of Management
+                Operations held rank equivalent to an Assistant Secretary of State and were
+                designated by the Secretary of State.</p>
+        </div>
+    </note>
+    <created-by>wicentowskijc</created-by>
+    <created-date>2014-09-18</created-date>
+    <last-modified-by>jacksonse</last-modified-by>
+    <last-modified-date>2016-08-13</last-modified-date>
+</office>

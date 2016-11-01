@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<office>
+    <id>director-of-policy-planning-1954</id>
+    <old-ids/>
+    <name>Director of Policy Planning</name>
+    <category>assistant-secretary-or-equiv</category>
+    <rank>assistant-secretary-of-state</rank>
+    <valid-from>1947-05-05</valid-from>
+    <valid-until>1954-11-16</valid-until>
+    <predecessors/>
+    <successors>
+        <successor>assistant-secretary-of-state-for-policy-planning-1961</successor>
+    </successors>
+    <note>
+        <div>
+            <p>The Secretary of State established a Policy Planning Staff, with a Director who held
+                rank equivalent to an Assistant Secretary of State, on May 5, 1947.</p>
+        </div>
+    </note>
+    <created-by>jacksonse</created-by>
+    <created-date>2016-10-19</created-date>
+    <last-modified-by>jacksonse</last-modified-by>
+    <last-modified-date>2016-10-19</last-modified-date>
+</office>

@@ -4,9 +4,11 @@
     <name>Bureau of Population, Refugees, and Migration</name>
     <office-symbol>PRM</office-symbol>
     <child-of>department-of-state</child-of>
-    <valid-from/>
+    <valid-from>1994-05-12</valid-from>
     <valid-until/>
-    <predecessors/>
+    <predecessors>
+        <predecessor>bureau-of-refugee-programs-1994</predecessor>
+    </predecessors>
     <successors/>
     <note/>
     <created-by>wicentowskijc</created-by>

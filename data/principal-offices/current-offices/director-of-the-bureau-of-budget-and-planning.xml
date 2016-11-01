@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<office>
+    <id>director-of-the-bureau-of-budget-and-planning</id>
+    <old-ids>
+        <old-id>director-bureau-budget-planning</old-id>
+    </old-ids>
+    <name>Director of the Bureau of Budget and Planning</name>
+    <category>assistant-secretary-or-equiv</category>
+    <rank>assistant-secretary-of-state</rank>
+    <valid-from>2012-06-29</valid-from>
+    <valid-until/>
+    <predecessors/>
+    <successors/>
+    <note>
+        <div>
+            <p>The Department of State divided the Bureau of Resource Management into the Bureau of
+                Budget and Planning and the Bureau of the Comptroller and of Global Financial
+                Services on June 29, 2012.</p>
+        </div>
+    </note>
+    <officers>
+        <officer>
+            <id>plan-2012-retz</id>
+            <person-id>retzlaff-barbara</person-id>
+            <contemporary-office-id>director-of-the-bureau-of-budget-and-planning</contemporary-office-id>
+            <mid-term-new-office-id/>
+            <appointed>
+                <date/>
+                <note/>
+            </appointed>
+            <started>
+                <date>2012-06-29</date>
+                <note/>
+            </started>
+            <ended>
+                <date/>
+                <note/>
+            </ended>
+            <note>New position. Designated, not commissioned.</note>
+            <created-by>marrsaw</created-by>
+            <created-date>2013-10-01</created-date>
+            <last-modified-by>marrsaw</last-modified-by>
+            <last-modified-date>2013-10-01</last-modified-date>
+        </officer>
+    </officers>
+    <other-appointees/>
+    <created-by>wicentowskijc</created-by>
+    <created-date>2014-09-18</created-date>
+    <last-modified-by>jacksonse</last-modified-by>
+    <last-modified-date>2016-10-24</last-modified-date>
+</office>

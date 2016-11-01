@@ -4,7 +4,7 @@
     <name>Bureau of Intelligence and Research</name>
     <office-symbol>INR</office-symbol>
     <child-of>department-of-state</child-of>
-    <valid-from/>
+    <valid-from>1953-11-27</valid-from>
     <valid-until/>
     <predecessors/>
     <successors/>

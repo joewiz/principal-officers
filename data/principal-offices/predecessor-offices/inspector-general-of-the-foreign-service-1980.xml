@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<office>
+    <id>inspector-general-of-the-foreign-service-1980</id>
+    <old-ids>
+        <old-id>inspector-general</old-id>
+    </old-ids>
+    <name>Inspector General of the Foreign Service</name>
+    <category>assistant-secretary-or-equiv</category>
+    <rank>assistant-secretary-of-state</rank>
+    <valid-from>1957-11-19</valid-from>
+    <valid-until>1980-10-16</valid-until>
+    <predecessors/>
+    <successors>
+        <successor>inspector-general-of-the-department-of-state-and-the-foreign-service</successor>
+    </successors>
+    <note>
+        <div>
+            <p>In 1957 the Department of State elevated the position of Chief of the Foreign Service
+                Inspection Corps to that of Inspector General of the Foreign Service. Between 1957
+                and 1980, the Secretary of State designated incumbents, who held rank equivalent to
+                an Assistant Secretary of State.</p>
+        </div>
+    </note>
+    <created-by>wicentowskijc</created-by>
+    <created-date>2014-09-18</created-date>
+    <last-modified-by>jacksonse</last-modified-by>
+    <last-modified-date>2016-09-15</last-modified-date>
+</office>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<office>
+    <id>coordinator-for-counter-terrorism-2012</id>
+    <old-ids/>
+    <name>Coordinator for Counter-Terrorism</name>
+    <category>assistant-secretary-or-equiv</category>
+    <rank>assistant-secretary-of-state</rank>
+    <valid-from>1989-05-01</valid-from>
+    <valid-until>2012-01-03</valid-until>
+    <predecessors>
+        <predecessor>ambassador-at-large-for-counter-terrorism-1989</predecessor>
+    </predecessors>
+    <successors>
+        <successor>director-of-the-bureau-of-counterterrorism</successor>
+    </successors>
+    <note>
+        <div>
+            <p>The position's title was again changed, to “Coordinator for Counter-Terrorism,”
+                on May 1, 1989.</p>
+        </div>
+    </note>
+    <created-by>jacksonse</created-by>
+    <created-date>2016-10-24</created-date>
+    <last-modified-by>jacksonse</last-modified-by>
+    <last-modified-date>2016-10-24</last-modified-date>
+</office>

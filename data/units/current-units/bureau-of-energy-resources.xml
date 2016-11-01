@@ -4,7 +4,7 @@
     <name>Bureau of Energy Resources</name>
     <office-symbol>ENR</office-symbol>
     <child-of>department-of-state</child-of>
-    <valid-from/>
+    <valid-from>2011-10-14</valid-from>
     <valid-until/>
     <predecessors/>
     <successors/>
@@ -12,5 +12,5 @@
     <created-by>wicentowskijc</created-by>
     <created-date>2015-11-17</created-date>
     <last-modified-by>jacksonse</last-modified-by>
-    <last-modified-date>2016-07-10</last-modified-date>
+    <last-modified-date>2016-09-17</last-modified-date>
 </unit>
