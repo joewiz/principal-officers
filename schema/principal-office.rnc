@@ -1,5 +1,5 @@
 element office {
-    element id { text },
+    element id { xsd:NCName },
     element old-ids {
         element old-id { text }*
     },
@@ -9,10 +9,10 @@ element office {
     element valid-from { xsd:date },
     element valid-until { empty | xsd:date },
     element predecessors {
-        element predecessor { text }*
+        element predecessor { xsd:NCName }*
     },
     element successors {
-        element successor { text }*
+        element successor { xsd:NCName }*
     },
     element note {
         element div {
@@ -24,11 +24,11 @@ element office {
     },
     element officers {
         element officer {
-            attribute treatAsConsecutive { text }?,
-            element id { text },
-            element person-id { text },
-            element contemporary-office-id { text },
-            element mid-term-new-office-id { text },
+            attribute treatAsConsecutive { "yes" }?,
+            element id { xsd:NCName },
+            element person-id { xsd:NCName },
+            element contemporary-office-id { xsd:NCName },
+            element mid-term-new-office-id { xsd:NCName },
             element appointed {
                 attribute subtype { "bracketed" }?,
                 element date { empty | xsd:date },
@@ -51,11 +51,11 @@ element office {
     }*,
     element other-appointees {
         element officer {
-            attribute treatAsConsecutive { text }?,
-            element id { text },
-            element person-id { text },
-            element contemporary-office-id { text },
-            element mid-term-new-office-id { text },
+            attribute treatAsConsecutive { "yes" }?,
+            element id { xsd:NCName },
+            element person-id { xsd:NCName },
+            element contemporary-office-id { xsd:NCName },
+            element mid-term-new-office-id { xsd:NCName },
             element appointed {
                 element date { empty | xsd:date },
                 element note { text }
@@ -69,14 +69,14 @@ element office {
                 element note { text }
             },
             element note { text },
-            element created-by { text },
+            element created-by { xsd:NCName },
             element created-date { xsd:date },
-            element last-modified-by { text },
+            element last-modified-by { xsd:NCName },
             element last-modified-date { xsd:date }
         }*
     }*,
-    element created-by { text },
+    element created-by { xsd:NCName },
     element created-date { xsd:date },
-    element last-modified-by { text },
+    element last-modified-by { xsd:NCName },
     element last-modified-date { xsd:date }
 }
